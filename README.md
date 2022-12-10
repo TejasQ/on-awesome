@@ -38,6 +38,18 @@ Here's what each function does:
 - `isAwesome` - Returns a boolean indicating whether or not the word "awesome" has been typed.
 - `reset` - Resets the state of the library so that it can be used again.
 
+### Lower level `onWord` API
+
+If you want to respond to a word other than "awesome", you can onhe `onWord` function:
+
+```js
+import { onWord } from "on-awesome";
+
+onWord("ilovetejas", () => {
+  alert('You typed the word "ilovetejas"!');
+});
+```
+
 ## Usage in a React App
 
 If you're using this library in a React app, you'll want to use the `useEffect` hook to clean up the event listener when the component unmounts:
