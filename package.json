@@ -1,0 +1,28 @@
+{
+  "name": "on-awesome",
+  "version": "0.0.2",
+  "description": "A little package to respond to people typing the word 'awesome' in web apps.",
+  "main": "./dist/on-awesome.umd.js",
+  "module": "./dist/on-awesome.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "tsc",
+    "preversion": "npm run build"
+  },
+  "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "email": "tejas@tejas.qa",
+    "name": "Tejas Kumar",
+    "url": "https://youtube.com/@tejask"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0-dev.20221209",
+    "vite": "^4.0.0"
+  }
+}
