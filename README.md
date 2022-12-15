@@ -1,5 +1,9 @@
 # `onAwesome`
 
+---
+**[Watch the Video](https://www.youtube.com/watch?v=n9XvuMUUnM8)**
+---
+
 A _smol_ library that responds to the word "awesome" being typed into the browser. It also exports a lower level `onWord` function that can be used to respond to any word.
 
 ## How to Use
